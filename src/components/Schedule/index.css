@@ -1,0 +1,14 @@
+.white-box {
+    border: 5px solid white;
+    border-radius: 25px;
+}
+
+.left-sided {
+    margin: 10px;
+    height: 75vh;
+    width: 25%;
+}
+
+.btm-padding {
+    margin-bottom: 15px;
+}

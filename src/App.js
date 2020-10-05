@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css';
+
+// import components 
+import Header from './components/Header/index';
+import Schedule from './components/Schedule/index';
+import Quotes from './components/Quotes/index';
+import Notes from './components/Notes/index';
+import Checklist from './components/Checklist/index';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container >
+      <Header />
+      <Row>
+        <Col sm={4} className="middle">
+          <Schedule />
+        </Col>
+        <Col sm={4}>
+          <Row className="middle">
+            <Quotes />
+            <Notes />
+          </Row>
+        </Col>
+        <Col sm={4} className="middle">
+          <Checklist />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

@@ -1,0 +1,24 @@
+.header-day {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: 'Roller Girl';
+    margin-top: 50px;
+}
+
+.header-month {
+    text-align: center;
+    margin-top: -45px;
+    font-size: 25px;
+    font-family: 'Roller Girl';
+    text-transform: lowercase;
+    color: white;
+}
+
+.header-time {
+    text-align: center;
+    font-family: 'Roller Girl';
+    color: white;
+    font-size: 25px;
+    margin-top: -20px;
+}
