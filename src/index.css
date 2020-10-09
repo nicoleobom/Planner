@@ -25,10 +25,14 @@ code {
 }
 
 .middle {
-  text-align: center;
+  /* text-align: center; */
   padding: 15px;
 }
 
 .container {
   height: 100vh;
+}
+
+.text-cntr {
+  text-align: center;
 }
